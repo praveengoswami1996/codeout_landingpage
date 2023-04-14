@@ -12,7 +12,7 @@
     flex: 1;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -34,6 +34,7 @@
 }
 
 .app__navbar-searchbar {
+    flex: 1;
     margin-left: 1rem;
     display: flex;
     align-items: center;
@@ -41,8 +42,8 @@
 }
 
 .app__navbar-searchbar input{
+    flex: 1;
     height: 45px;
-    width: 450px;
     font-size: 18px;
     line-height: 22px;
     padding: 5px 15px;
@@ -64,6 +65,8 @@
 }
 
 .app__navbar-right {
+    flex: 1;
+    margin-left: 30px;
     flex: 1;
     display: flex;
     justify-content: flex-end;    
