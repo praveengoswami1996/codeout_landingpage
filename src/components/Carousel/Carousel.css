@@ -65,8 +65,10 @@
     width: 220px;
     height: 70px;
     font-size: 22px;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: gold;
+    border: none;
+    outline: none;
     color: #fff;
     text-shadow: 2px 0px 8px rgba(0, 0, 0, 0.9);
     cursor: pointer;
