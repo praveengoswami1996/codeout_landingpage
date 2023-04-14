@@ -1,0 +1,28 @@
+.app__courses {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+} 
+
+.app__courses_link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.app__courses_icon {
+    width: 50px;
+    height: 50px;
+}
+
+.app__courses_icon img{
+    width: 100%;
+    height: 100%;
+}
+
+.app__courses_link span {
+    font-size: 18px;
+}
